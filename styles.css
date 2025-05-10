@@ -1,0 +1,52 @@
+body {
+  background: #e6d5f7; /* Morado claro */
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  text-align: center;
+}
+
+.container {
+  padding: 30px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  color: #7b1fa2;
+}
+
+h2 {
+  color: #6a1b9a;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.galeria img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+}
+
+footer {
+  margin-top: 40px;
+  font-style: italic;
+  color: #555;
+}
